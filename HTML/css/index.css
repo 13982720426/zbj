@@ -47,20 +47,71 @@ a {
 .header-top-right {
   flex: 1;
 }
-.header-top-right-nav {
-  float: left;
-}
-.header-top-right-nav a {
-  color: #888;
-}
-.header-top-right span {
-  margin-right: 16px;
+.header-top-right-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; /*去除li前的标注*/
+  /* background-color: #fff; */
+  overflow: hidden; /*隐藏溢出的部分，保持一行*/
 }
 
+.header-top-right-nav li {
+  float: left;
+  list-style: none;
+}
+
+.header-top-right-nav .f1 a:hover {
+  color: #ff6900;
+}
+.header-top-right-nav .f2 a {
+  color: #ff6900;
+}
+.header-top-right-nav li a,
+.dropbtn {
+  /*display:inline-block将对象呈递为内联对象，但是对象的内容作为块对象呈递。旁边的内联对象会被呈递在同一行内，允许空格。*/
+  display: inline-block; /*设置成块*/
+  color: #888;
+  /* text-align: center; */
+  text-decoration: none;
+  padding: 5px 16px;
+}
+
+.header-top-right-nav li a:hover,
+.dropdown:hover .dropbtn {
+  /*鼠标移上去，改变背景颜色*/
+  /* background-color: #f9f9f0; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header-top-right-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header-top-right-nav .dropdown-content a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.header-top-right-nav .dropdown-content a:hover {
+  background-color: #cecccc;
+  color: #ff6900;
+}
+
+.header-top-right-nav .dropdown:hover .dropdown-content {
+  display: block;
+}
 .header-bd-wrap {
   width: 100%;
+  margin-bottom: 30px;
+  border-top: 1px solid #666;
 }
-.header-bd-wrap.header-bd-wrap-fixed {
+
+.header-bd-wrap-fixed {
 }
 .header-bd-wrap-content {
   width: 1190px;
@@ -169,5 +220,6 @@ a {
   vertical-align: top;
 }
 .header-bd-wrap-nav {
+  margin-top: 2px;
   margin-bottom: 20px;
 }
