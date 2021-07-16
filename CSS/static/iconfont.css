@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'iconfont'; /* Project id 2678827 */
+  src: url('iconfont.woff2?t=1626406265848') format('woff2'),
+    url('iconfont.woff?t=1626406265848') format('woff'),
+    url('iconfont.ttf?t=1626406265848') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tubiao-:before {
+  content: '\e654';
+}
+
+.icon-shaixuan:before {
+  content: '\e6ad';
+  font-size: 9px;
+  opacity: 1;
+}
+
+.icon-scan-line:before {
+  content: '\e640';
+  font-size: 16px;
+  opacity: 1;
+}
+
+.icon-yunpanlogo-:before {
+  content: '\e618';
+}
+
+.icon-sousuo:before {
+  content: '\e608';
+  opacity: 1;
+  font-size: 13px;
+}
+
+.icon-bao:before {
+  content: '\e666';
+}
+
+.icon-v:before {
+  content: '\e61e';
+}
+
+.icon-guanggao:before {
+  content: '\e619';
+  font-size: 30px;
+}
