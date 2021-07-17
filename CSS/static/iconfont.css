@@ -21,12 +21,14 @@
   content: '\e6ad';
   font-size: 9px;
   opacity: 1;
+  color: #626262;
 }
 
 .icon-scan-line:before {
   content: '\e640';
-  font-size: 16px;
+  font-size: 22px;
   opacity: 1;
+  color: #b2b2b2;
 }
 
 .icon-yunpanlogo-:before {
@@ -36,18 +38,22 @@
 .icon-sousuo:before {
   content: '\e608';
   opacity: 1;
-  font-size: 13px;
+  font-size: 14px;
+  color: #b2b2b2;
 }
 
 .icon-bao:before {
   content: '\e666';
+  color: #7bd9a2;
 }
 
 .icon-v:before {
   content: '\e61e';
+  color: #fbc732;
 }
 
 .icon-guanggao:before {
   content: '\e619';
   font-size: 30px;
+  color: #a2a2a2;
 }
