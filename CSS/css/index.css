@@ -25,7 +25,6 @@ input {
   opacity: 1;
   font-size: 14px;
   font-family: PingFangSC, PingFangSC-Regular;
-  font-weight: 400;
   text-align: left;
   color: rgba(0, 0, 0, 0.85);
   line-height: 20px;
@@ -38,13 +37,14 @@ input {
   background: #ffffff;
   box-shadow: 0px 1px 0px 0px #e5e5e5;
   text-align: center;
+  font-weight: bolder;
 }
 .header-menu div {
-  width: 28px;
+  width: 30px;
   height: 1px;
   margin-top: 9px;
   background-color: #ff6900;
-  border: 2px solid #ff6900;
+  border: 1px solid #ff6900;
   border-radius: 2px;
 }
 .header-menu li {
@@ -56,13 +56,9 @@ input {
   opacity: 1;
   font-size: 16px;
   font-family: PingFangSC, PingFangSC-Medium;
-  font-weight: 500;
   text-align: left;
   color: #333333;
   line-height: 22px;
-}
-.header-menu li:last-child {
-  border-bottom: 3px solid #ff6900;
 }
 .content {
   width: 375px;
@@ -87,7 +83,7 @@ input {
   font-family: PingFangSC, PingFangSC-Regular;
   font-weight: 400;
   text-align: left;
-  color: #555555;
+  color: #5f5f5f;
   line-height: 18px;
 }
 .content .content-screen li:first-child {
@@ -231,6 +227,7 @@ input {
 }
 .content .content-layout .content-main .content-main-label li:nth-child(6) {
   height: 14px;
+  padding: 0 1px;
   border: 1px solid #EEEEEE;
   color: #a8a8a8;
   border-radius: 1px;
@@ -297,13 +294,13 @@ input {
   padding: 1px;
 }
 .content .content-layout .content-main .content-main-box .content-main-box-data li:nth-child(4) span:first-child {
-  color: white;
+  color: #fff5cd;
   background-color: #ff6600;
   border-radius: 2px;
 }
 .content .content-layout .content-main .content-main-box .content-main-box-data li:nth-child(4) span:nth-child(2) {
   margin-left: 4px;
-  color: #676767;
+  color: #747474;
 }
 .content .content-layout .content-main .content-main-box .content-main-box-data li:nth-child(5) {
   font-size: 11px;

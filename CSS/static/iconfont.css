@@ -21,14 +21,16 @@
   content: '\e6ad';
   font-size: 9px;
   opacity: 1;
-  color: #626262;
+  color: #5f5f5f;
+  font-weight: bold;
 }
 
 .icon-scan-line:before {
   content: '\e640';
-  font-size: 22px;
+  font-size: 21px;
   opacity: 1;
   color: #b2b2b2;
+  font-weight: bolder;
 }
 
 .icon-yunpanlogo-:before {
