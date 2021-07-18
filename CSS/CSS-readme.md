@@ -1,4 +1,4 @@
-# CSS-readme
+# CSS-README
 
 
 完善了CSS搜索-店铺样式
@@ -39,14 +39,18 @@
 
 ## 设置阴影遇到的问题
 #### 原型图上的阴影
+看起来很正常没有什么问题
 ![](https://i.loli.net/2021/07/18/odZhYuq5zV2SfAk.png#id=vXRWM&originHeight=602&originWidth=652&originalType=binary&ratio=1&status=done&style=none)
 
 
 #### 在我的劣质显示器上的原型图
+劣质显示器上可以看到原型图上阴影部分的重影
 ![](https://i.loli.net/2021/07/18/TgjXiuJMl9wN3Kt.png#id=bMBRq&originHeight=692&originWidth=880&originalType=binary&ratio=1&status=done&style=none)
 #### 我写的样式在劣质显示器上看的效果
+我自己写的样式在劣质显示器上也能明显看到重影
 ![](https://i.loli.net/2021/07/18/kZOqUTeMoWpjAQ3.png#id=JRJCp&originHeight=562&originWidth=602&originalType=binary&ratio=1&status=done&style=none)
 #### 最后对比图
+在好的屏幕上显示截图，并没有什么区别
 ![](https://i.loli.net/2021/07/18/WQHTMp83jiNZdJu.png#id=hgziH&originHeight=363&originWidth=747&originalType=binary&ratio=1&status=done&style=none)
 实际效果差别不大，但是就是因为屏幕的原因，导致看到有重影一直调不对
 最后建议条件允许一定要用好的显示器看效果图
