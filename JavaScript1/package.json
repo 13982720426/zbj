@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "big.js": "^6.1.1",
+    "mathjs": "^9.4.4"
+  }
+}
