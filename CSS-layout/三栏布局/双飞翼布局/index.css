@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 100px;
+  background: #c95353;
+}
+.content .left {
+  float: left;
+  width: 100px;
+  height: 200px;
+  background: #7979a3;
+  margin-left: -100%;
+}
+.content .center {
+  float: left;
+  width: 100%;
+  height: 200px;
+  background: #d4d473;
+}
+.content .center p {
+  margin: 0 100px 0 100px;
+  height: 100%;
+}
+.content .right {
+  float: left;
+  width: 100px;
+  height: 200px;
+  background: #7daa7d;
+  margin-left: -100px;
+}

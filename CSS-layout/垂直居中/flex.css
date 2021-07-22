@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.layout-flex {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+}
+.layout-flex .item {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #dddd5c;
+}

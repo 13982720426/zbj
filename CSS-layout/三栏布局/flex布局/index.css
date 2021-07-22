@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 100px;
+  background: #c95353;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content .left {
+  width: 100px;
+  background: #62ccc7;
+}
+.content .center {
+  flex: 1;
+  height: 200px;
+  background: #d4d473;
+}
+.content .right {
+  width: 100px;
+  background: #7daa7d;
+}

@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\zbjGit\\nodejs-zbj-indexweb-api"
+    },
+    {
+      "path": "..\\zbjGit\\devOps"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "zbj"
+  }
+}

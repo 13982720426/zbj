@@ -1,0 +1,14 @@
+.layout-inline {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: red;
+}
+.layout-inline .item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #dddd5c;
+}

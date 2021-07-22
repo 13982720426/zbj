@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.layout-position {
+  position: relative;
+  background: red;
+  width: 100%;
+  height: 200px;
+}
+.layout-position .item {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #dddd5c;
+}
