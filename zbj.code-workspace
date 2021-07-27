@@ -8,6 +8,12 @@
     },
     {
       "path": "..\\zbjGit\\devOps"
+    },
+    {
+      "path": "..\\zbjGit\\nodejs-zbj-tradeadmin-web"
+    },
+    {
+      "path": "..\\web\\react1\\融职商场后台管理\\antd_pro_shop_admin"
     }
   ],
   "settings": {
