@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // 方式一：获取 Date 对象的时间戳（最常用的写法）
+    const timestamp1 = +new Date();
+    console.log(timestamp1); // 打印结果举例：1589448165370
+
+    // 方式二：获取 Date 对象的时间戳（较常用的写法）
+    const timestamp2 = new Date().getTime();
+    console.log(timestamp2); // 打印结果举例：1589448165370
+
+    // 方式三：获取 Date 对象的时间戳
+    const timestamp3 = new Date().valueOf();
+    console.log(timestamp3); // 打印结果举例：1589448165370
+
+    // 方式4：获取 Date 对象的时间戳
+    const timestamp4 = new Date() * 1;
+    console.log(timestamp4); // 打印结果举例：1589448165370
+
+    // 方式5：获取 Date 对象的时间戳
+    const timestamp5 = Number(new Date());
+    console.log(timestamp5); // 打印结果举例：1589448165370
+    
+  </script>
+</body>
+</html>

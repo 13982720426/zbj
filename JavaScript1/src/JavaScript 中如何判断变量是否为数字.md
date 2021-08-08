@@ -17,13 +17,13 @@ isFinite 是全局的方法，不与任何对象有关系。
 我们先创建一些变量：
 
 ```javascript
-let intVar = 2;
-let floatVar = 10.5;
-let stringVar = '4';
-let nanVar = NaN;
-let infinityVar = Infinity;
-let nullVar = null;
-let undefinedVar = undefined;
+let intVar = 2
+let floatVar = 10.5
+let stringVar = '4'
+let nanVar = NaN
+let infinityVar = Infinity
+let nullVar = null
+let undefinedVar = undefined
 ```
 
 ## Number.isFinite 方法
@@ -33,15 +33,15 @@ Number.isFinite 函数检查变量是否为数字，还检查其是否为 有限
 我们用上面定义的变量来检验一下:
 
 ```javascript
-console.log('Number.isFinite方法判断是否为number');
-console.log('Number.isFinite方法 ' + `${intVar} ` + Number.isFinite(intVar));
-console.log('Number.isFinite方法 ' + `${floatVar} ` + Number.isFinite(floatVar));
-console.log('Number.isFinite方法 ' + `${stringVar} ` + Number.isFinite(stringVar));
-console.log('Number.isFinite方法 ' + `${nanVar} ` + Number.isFinite(nanVar));
-console.log('Number.isFinite方法 ' + `${infinityVar} ` + Number.isFinite(infinityVar));
-console.log('Number.isFinite方法 ' + `${nullVar} ` + Number.isFinite(nullVar));
-console.log('Number.isFinite方法 ' + `${undefinedVar} ` + Number.isFinite(undefinedVar));
-console.log('Number.isFinite方法 ' + `${intVar} ` + Number.isFinite(intVar));
+console.log('Number.isFinite方法判断是否为number')
+console.log('Number.isFinite方法 ' + `${intVar} ` + Number.isFinite(intVar))
+console.log('Number.isFinite方法 ' + `${floatVar} ` + Number.isFinite(floatVar))
+console.log('Number.isFinite方法 ' + `${stringVar} ` + Number.isFinite(stringVar))
+console.log('Number.isFinite方法 ' + `${nanVar} ` + Number.isFinite(nanVar))
+console.log('Number.isFinite方法 ' + `${infinityVar} ` + Number.isFinite(infinityVar))
+console.log('Number.isFinite方法 ' + `${nullVar} ` + Number.isFinite(nullVar))
+console.log('Number.isFinite方法 ' + `${undefinedVar} ` + Number.isFinite(undefinedVar))
+console.log('Number.isFinite方法 ' + `${intVar} ` + Number.isFinite(intVar))
 ```
 
 结果：
@@ -65,15 +65,15 @@ Number.isFinite方法 2 true
 标准 Number 对象有一个 isNaN 方法。它接受一个参数，并确定其值是否为 NaN 。因为我们想检查一个变量是否是一个数字，所以我们将在检查中使用非操作符 ! 。
 
 ```javascript
-console.log('Number.isNaN方法判断是否为number');
-console.log('Number.isNaN方法 ' + `${intVar} ` + !Number.isNaN(intVar));
-console.log('Number.isNaN方法 ' + `${floatVar} ` + !Number.isNaN(floatVar));
-console.log('Number.isNaN方法 ' + `${stringVar} ` + !Number.isNaN(stringVar));
-console.log('Number.isNaN方法 ' + `${nanVar} ` + !Number.isNaN(nanVar));
-console.log('Number.isNaN方法 ' + `${infinityVar} ` + !Number.isNaN(infinityVar));
-console.log('Number.isNaN方法 ' + `${nullVar} ` + !Number.isNaN(nullVar));
-console.log('Number.isNaN方法 ' + `${undefinedVar} ` + !Number.isNaN(undefinedVar));
-console.log('Number.isNaN方法 ' + `${intVar} ` + !Number.isNaN(intVar));
+console.log('Number.isNaN方法判断是否为number')
+console.log('Number.isNaN方法 ' + `${intVar} ` + !Number.isNaN(intVar))
+console.log('Number.isNaN方法 ' + `${floatVar} ` + !Number.isNaN(floatVar))
+console.log('Number.isNaN方法 ' + `${stringVar} ` + !Number.isNaN(stringVar))
+console.log('Number.isNaN方法 ' + `${nanVar} ` + !Number.isNaN(nanVar))
+console.log('Number.isNaN方法 ' + `${infinityVar} ` + !Number.isNaN(infinityVar))
+console.log('Number.isNaN方法 ' + `${nullVar} ` + !Number.isNaN(nullVar))
+console.log('Number.isNaN方法 ' + `${undefinedVar} ` + !Number.isNaN(undefinedVar))
+console.log('Number.isNaN方法 ' + `${intVar} ` + !Number.isNaN(intVar))
 ```
 
 结果：
@@ -99,36 +99,36 @@ Number.isNaN方法 2 true
 ```javascript
 console.log(
   'Object.prototype.toString.call()方法 ' + `${intVar} ` + Object.prototype.toString.call(intVar)
-);
+)
 console.log(
   'Object.prototype.toString.call()方法 ' +
     `${floatVar} ` +
     Object.prototype.toString.call(floatVar)
-);
+)
 console.log(
   'Object.prototype.toString.call()方法 ' +
     `${stringVar} ` +
     Object.prototype.toString.call(stringVar)
-);
+)
 console.log(
   'Object.prototype.toString.call()方法 ' + `${nanVar} ` + Object.prototype.toString.call(nanVar)
-);
+)
 console.log(
   'Object.prototype.toString.call()方法 ' +
     `${infinityVar} ` +
     Object.prototype.toString.call(infinityVar)
-);
+)
 console.log(
   'Object.prototype.toString.call()方法 ' + `${nullVar} ` + Object.prototype.toString.call(nullVar)
-);
+)
 console.log(
   'Object.prototype.toString.call()方法 ' +
     `${undefinedVar} ` +
     Object.prototype.toString.call(undefinedVar)
-);
+)
 console.log(
   'Object.prototype.toString.call()方法 ' + `${intVar} ` + Object.prototype.toString.call(intVar)
-);
+)
 ```
 
 结果：
@@ -169,29 +169,29 @@ typeof 命令可以判断所有 javascript 中的基本数据类型(Null, Undefi
 为了验证变量是否为数字，我们只需要检查 typeof 返回的值是否为`"number"。让我们尝试一下测试变量：
 
 ```javascript
-console.log('typeof方法判断是否为number');
-console.log('Number.isNaN方法 ' + `${intVar} ` + `${typeof intVar == 'number'}`);
-console.log('Number.isNaN方法 ' + `${floatVar} ` + `${typeof floatVar == 'number'}`);
-console.log('Number.isNaN方法 ' + `${stringVar} ` + `${typeof stringVar == 'number'}`);
-console.log('Number.isNaN方法 ' + `${nanVar} ` + `${typeof nanVar == 'number'}`);
-console.log('Number.isNaN方法 ' + `${infinityVar} ` + `${typeof infinityVar == 'number'}`);
-console.log('Number.isNaN方法 ' + `${nullVar} ` + `${typeof nullVar == 'number'}`);
-console.log('Number.isNaN方法 ' + `${undefinedVar} ` + `${typeof undefinedVar == 'number'}`);
-console.log('Number.isNaN方法 ' + `${intVar} ` + `${typeof intVar == 'number'}`);
+console.log('typeof方法判断是否为number')
+console.log('Number.isNaN方法 ' + `${intVar} ` + `${typeof intVar == 'number'}`)
+console.log('Number.isNaN方法 ' + `${floatVar} ` + `${typeof floatVar == 'number'}`)
+console.log('Number.isNaN方法 ' + `${stringVar} ` + `${typeof stringVar == 'number'}`)
+console.log('Number.isNaN方法 ' + `${nanVar} ` + `${typeof nanVar == 'number'}`)
+console.log('Number.isNaN方法 ' + `${infinityVar} ` + `${typeof infinityVar == 'number'}`)
+console.log('Number.isNaN方法 ' + `${nullVar} ` + `${typeof nullVar == 'number'}`)
+console.log('Number.isNaN方法 ' + `${undefinedVar} ` + `${typeof undefinedVar == 'number'}`)
+console.log('Number.isNaN方法 ' + `${intVar} ` + `${typeof intVar == 'number'}`)
 ```
 
 结果：
 
 ```javascript
 typeof方法判断是否为number
-Number.isNaN方法 2 true
-Number.isNaN方法 10.5 true
-Number.isNaN方法 4 false
-Number.isNaN方法 NaN true
-Number.isNaN方法 Infinity true
-Number.isNaN方法 null false
-Number.isNaN方法 undefined false
-Number.isNaN方法 2 true
+Number.typeof方法 2 true
+Number.typeof方法 10.5 true
+Number.typeof方法 4 false
+Number.typeof方法 NaN true
+Number.typeof方法 Infinity true
+Number.typeof方法 null false
+Number.typeof方法 undefined false
+Number.typeof方法 2 true
 ```
 
 typeof 函数的性能比 Number.isNaN 要好得多。它正确地确定了字符串变量 null 和 undefined 不是数字。但是，对于 NaN 和 Infinity ，它返回 true 。
